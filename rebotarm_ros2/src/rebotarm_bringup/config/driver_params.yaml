@@ -1,0 +1,12 @@
+rebotarm_joint_state:
+  ros__parameters:
+    # Safe default: publish simulated zero feedback without opening SocketCAN.
+    use_real_hardware: false
+    allow_enable: false
+    allow_safe_home: false
+    allow_joint_motion: false
+    allow_gravity_compensation: false
+    allow_calibration: false
+    calibration_mode: false
+    channel: can0
+    publish_rate: 20.0
